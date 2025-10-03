@@ -13,7 +13,7 @@ First, clone the repository to your local machine and navigate into the project 
 ```bash
 git clone [https://github.com/CHHORNSeyha88/amapi-test-endpoints.git](https://github.com/CHHORNSeyha88/amapi-test-endpoints.git)
 cd amapi-test-endpoints
-
+```
 2. Add Google Cloud Credentials
 This project requires a Google Cloud service account key to authenticate and function correctly. Because credentials are sensitive information, the key file is not included in the repository and is specified in the .gitignore file.
 
