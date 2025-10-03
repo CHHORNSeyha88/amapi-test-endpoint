@@ -35,3 +35,5 @@ out/
 
 ### VS Code ###
 .vscode/
+### GCP Credentials ###
+src/main/resources/amapi-gcp-credentials.json
