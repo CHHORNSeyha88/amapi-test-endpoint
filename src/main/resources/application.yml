@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: amampi-test-endpoints
+
+
+google:
+  gcp:
+    api:
+      application:
+        projectid: "amapi-474003"
+        name: "amapi-management"
+        credential: "amapi-gcp-credentials.json"
+
+logging:
+  level:
+    org.homework.amapitestendpoints: DEBUG
+    org.springframework.web: DEBUG
+server:
+  port: 8080
