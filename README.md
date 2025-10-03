@@ -1,0 +1,19 @@
+AMAPI Test EndpointsThis project provides test endpoints for the Android Management API (AMAPI).
+🚀 Setup Instructions1.
+Clone the repositoryFirst, clone the repository to your local machine and navigate into the project directory.
+git clone [https://github.com/CHHORNSeyha88/amapi-test-endpoints.git](https://github.com/CHHORNSeyha88/amapi-test-endpoints.git)
+cd amapi-test-endpoints
+2. Add Google Cloud CredentialsThis project requires a Google Cloud service account key to authenticate and function correctly. Because credentials are sensitive information, the key file is not included in the repository and is specified in the .gitignore file.
+Steps:
+1.Navigate to the Google Cloud Console to create or select a project.
+2.Create a new service account and download the corresponding JSON private key.
+3.Place the downloaded JSON file in the project directory and name it gcp-credentials.json at the following path:
+src/main/resources/gcp-credentials.json
+⚠️ Important: Do not commit the gcp-credentials.json file to version control.
+▶️ Build & RunOnce the setup is complete, you can build and run the application using the included Gradle wrapper
+.# Build the project
+./gradlew build
+# Run the Spring Boot application
+./gradlew bootRun
+💡 Optional: IDE TipsIf you are using IntelliJ IDEA, ensure that the src/main/resources directory is marked as a Resources Root.
+This is typically configured automatically, but you can set it manually by right-clicking the directory if needed.
